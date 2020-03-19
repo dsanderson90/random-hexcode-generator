@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 import './styles/tailwind.css';
-import SideDrawer from './SideDrawer';
+
+import SideDrawer from './components/SideDrawer';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<SideDrawer />, document.getElementById('root'));
