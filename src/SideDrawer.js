@@ -1,6 +1,8 @@
 import React from 'react'
 
 const SideDrawer = () => {
+
+    const handleClick = (e) => console.log(e.target)
     return (
         <div>
         <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6">
@@ -21,10 +23,17 @@ const SideDrawer = () => {
             </div>
           </div>
         </nav>
-        <div className="">
-side drawer
-
+        <div className="w-56 absolute left-0 top-0 h-full bg-orange-600">
+<div className="pl-8 py-6 font-bold"><span className="px-2"><button onClick={handleClick} href="">BACK</button></span>JAMIE BURNES</div>
+<div className="flex-col flex-grow text-center">
+<hr className="py-2"/>
+    <div>Home</div>
+    <div>Bio</div>
+    <div>Portfolio</div>
+    <div>Show Announcement</div>
+    <div>Recent Articles</div>
         </div>
+</div>
       
     
 
