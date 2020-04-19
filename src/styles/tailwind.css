@@ -10661,6 +10661,12 @@ video {
   background-color: #63b3ed;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Cousine&display=swap');
+
+:root {
+  font-family: "Cousine", monospace;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
