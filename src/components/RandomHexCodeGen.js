@@ -15,7 +15,7 @@ const RandomHexCodeGen = () => {
     }
     return hexcode.join("");
   };
-  
+
   const setCurrentHexCode = () => {
     const code = genRandomHexCode(hexes);
     return setRandomHexCode(code);
@@ -23,7 +23,7 @@ const RandomHexCodeGen = () => {
 
   return (
     <div
-      className="flex justify-center items-center h-full bg-gray-600"
+      className="flex justify-center items-center h-full bg-gray-400"
       css={css`
         height: 100vh;
       `}
@@ -40,7 +40,7 @@ const RandomHexCodeGen = () => {
           <div className="font-bold text-xl mb-2 text-center">
             Hexcode Generator
           </div>
-          <div className="text-4xl text-center border-purple-800 rounded-md">
+          <div className="text-4xl text-center rounded-md">
             {currentHexCode}
           </div>
         </div>
